@@ -1,0 +1,125 @@
+body, a{
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+
+}
+
+ul   {
+    list-style-type: none;
+    ;
+
+}
+.logo-docplanner{
+    height: 268px;
+    height: 33px;
+    margin-top: 10px;
+    margin-left:  50px; ;
+}
+}
+img {
+    max-width: 100%;
+}
+
+.nav-list ul {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.nav-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-list{
+    margin-right: 50px;
+    width: 300px;
+   
+   
+}
+.nav-list a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-about{
+    color: #00b39b ;
+}  
+.nav-list a:hover{
+    color: #00b39b;
+}
+
+/*dropdown navbarrrrrrrrrrrrr*/
+
+.departments-dropdown{
+    position: relative;
+    display: inline-block;
+}
+.departments-dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 210px;
+  min-height: 220px;
+  box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: -20px;
+  top: 30px;
+}
+.departments-dropdown:hover .departments-dropdown-content{
+    display: block ;
+  
+    ;
+}
+
+.departments-dropdown-content a{
+    display: block ;
+    padding: 12px 16px
+}
+.departments-dropdown-content a:hover{
+    background-color: ;
+    color: #00b39b;
+     ;
+}
+
+/*introduction-------------------*/
+
+.introduction-section{
+    margin-top: 50px;
+}
+.introduction-logo {
+    display: flex;
+    justify-content: center;
+}
+.introduction-text1 h1{
+    text-align: center;
+}
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+h1, h2, h3, h4 {
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.introduction-text2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 700px;
+    background-color: ;
+}
+.introduction-text2-pr1 h4{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  
+    
+    ;
+ 
+   
+}
+.introduction-text2-pr2{
+    grid-column: 2 / 3;
+    justify-self: stretch
+}
